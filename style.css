@@ -1,0 +1,46 @@
+/*
+Theme Name: WA Athletes
+Author: John Miyao
+Author URI: https://wordpress.org/
+Description: Practice theme for pro basketball players from the state of WA
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import 'css/meyer-reset.css';
+@import 'css/style.css';
+@import 'css/setup.css';
+@import 'css/settings.css';
+@import 'css/structure.css';
+@import 'css/typography.css';
+@import 'css/developer.css';
+
+/* - - COMPONENTS - - */
+@import "css/athlete-card.css";
+
+/* - - MODULES - - */
+@import "css/site-header.css";
+
+body	{
+	background: hsla(42, 60%, 77%, 1.00);
+}
+
+.current_page_item a {
+	color: red;
+}
+
+.athlete-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 1em;
+}
+
+
+
