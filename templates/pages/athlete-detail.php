@@ -8,9 +8,9 @@
 			<img src="<?php the_field('headshot'); ?>" alt="">
 		</picture>
 
-		<h3 class="attention-voice">Hometown:</h3>
+		<h3 class="alert-voice">Hometown:</h3>
 		<p class="normal-voice"><?php the_field("hometown"); ?></p>
-		<h3 class="attention-voice">NBA Teams Played for:</h3>
+		<h3 class="alert-voice">NBA Teams Played for:</h3>
 		<ul>
 			<?php  
 				$nba_teams = get_field('nba_teams');
@@ -21,7 +21,7 @@
 			?>
 			
 			<li>
-				<h4 class="alert-voice"><?php the_title(); ?></h4>
+				<h4 class="normal-voice"><?php the_title(); ?></h4>
 
 			<?php endforeach; ?>
 			</li>

@@ -4,7 +4,12 @@ athlete-card {
 	border: 2px solid rgba(0,0,0,.1);
 }
 
+hometown {
+	display: flex;
+	align-items: center;	
+}
+
 high-school {
 	display: flex;
-	/*align-items: center;*/
+	align-items: center;
 }

@@ -9,7 +9,7 @@
 				];
 			
 				$query = new WP_Query( $parameters );
-			
+
 				while ( $query->have_posts() ) : $query->the_post();
 					echo "<li class='athlete'>";
 					include( getFile("templates/components/athlete-card.php") );
