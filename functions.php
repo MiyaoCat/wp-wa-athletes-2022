@@ -3,6 +3,7 @@
 function getFile($path) {
   return dirname(__FILE__) . '/' . $path;
 }
+
 /* Disable WordPress Admin Bar for all users */
 add_filter( 'show_admin_bar', '__return_false' );
 
@@ -16,7 +17,7 @@ add_action( 'wp_enqueue_scripts', 'mytheme_enqueue_style' );
 function register_my_menus() {
   register_nav_menus(
     array(
-      'header-menu' => __( 'Header Menu' ),
+      'site-menu' => __( 'Site Menu' ),
       'extra-menu' => __( 'Extra Menu' )
      )
    );

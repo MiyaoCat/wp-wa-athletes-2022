@@ -34,26 +34,37 @@ a {
 	font-family: var(--sans-serif);
 	font-size: 1.5rem;
 	font-weight: 500;
+	/*line-height: 1.5rem;*/
+}
+
+.alert-voice {
+	font-family: var(--sans-serif);
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
 /* Paragraph text or similar */
 .normal-voice {
+	font-family: var(--sans-serif);
 	font-size: 1rem;
-	line-height: 1.5rem;
+	/*line-height: 1.5rem;*/
 }
 
 /* Caption text or similar */
 .intro-voice {
+	font-family: var(--sans-serif);
 	font-size: .9rem;
 }
 
 /* Caption text or similar */
 .calm-voice {
+	font-family: var(--sans-serif);
 	font-size: .8rem;
 }
 
 /* Fine print text or similar */
 .quiet-voice {
+	font-family: var(--sans-serif);
 	font-size: .6rem;
 }
 
@@ -65,36 +76,6 @@ a {
 	font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
-/* - - SITE MENU - - */
-/*.site-menu a {
-	font-size: .9rem;
-}
-
-.calm-voice, p, li {
-	font-family: var(--sans-serif);
-	font-size: 1rem;
-	font-weight: 300;
-	line-height: 1.2;
-	letter-spacing: .05rem;
-}
-
-.calm-voice, articles-intro p {
-	font-family: var(--sans-serif);
-	font-size: clamp(.8rem 2vw 1.1rem);
-	font-weight: 300;
-	text-transform: uppercase;
-	line-height: 1.4;
-	letter-spacing: .05rem;
-}
-
-:is(.calm-voice, p, li) em {
-	font-style: italic;
-}
-
-:is(.calm-voice, p, li) strong {
-	font-weight: 700;
-}
-*/
 
 
 
